@@ -165,7 +165,8 @@ return [
         /*
          * Package Service Providers...
          */
-
+        // laravel permission
+        Spatie\Permission\PermissionServiceProvider::class,
         /*
          * Application Service Providers...
          */
